@@ -1,0 +1,36 @@
+Variables:
+Es un espacio en donde puedo guardar alguna informacion para luego reutilizarla.
+
+String:
+Es una cadena de caracteres, es decir una consecusion de letras o algun otro valor como signos. 
+
+Funciones:
+Sirven para agrupar contenido que voy a utilizar muchas veces y luego poder invocarlo sin necesidad de volver a reescribir el mismo codigo una y otra vez. 
+La funcion puede tener argumentos, estos son como variables que podremos declarar dentro de la funcion. Estas variables no son globales, es decir que no puedo 
+llamarlas desde fuera de la funcion por que figuraran como indefinidas, como si no existieran.   
+Para poder volver a llamarlas desde fuera de la funcion voy a  utilizar la declaracion "return" que luego me va a permitir imprimir el codigo externamente a las llaves de 
+la funcion. 
+
+Declaracion If:
+Esta delcaracion me permite razonar con la funcion por asi decirlo, puedo ir haciendo declaraciones de cierta informacion y en base a eso hacer preguntas para que 
+la funcion me devuelva una respuesta.
+
+Valores Booleanos:
+Para poder saber si cierta declaracion de informacion que introduje en la funcion se cunple se cumnple de forma correcta o incorrecta utilizamos los valores Booleanos, 
+si la informacion es correcta, es decir coincide con la declaracion que se hizo en la funcion me va a devolver True, de lo contrario me va a devolver false.
+Por ejemplo:
+     function Par(num){
+
+         if(num %2 === 0){
+
+             return true;
+         }
+         return false; 
+     }
+    
+    var num = 17;
+
+    Par()
+
+    false
+    
