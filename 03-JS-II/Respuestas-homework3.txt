@@ -1,0 +1,11 @@
+for
+&&, ||, !
+
+for: es un bucle, lo utilizamos cuando necesitamos escribir un codigo que se va a repetir muchas veces, a traves de esta herramienta
+lo escribimos ahi adentro y no necesitamos luego repetirlo de forma manual. 
+
+&&, || y ! Son operadores logicos que voy a utilizar soo cuando estoy haciendo una declaracion que me va a dar como resultado
+positivo o falso (valores booleanos). Las && me sirven para adherir una condicion a otra, en dicho caso estoy diciendo que necesitamos 
+que ambas condiciones se cumplan para que me de un true. En el caso de || estoy diciendo "or", una o la otra, aca quiero decirle al interprete
+que en caso de que alguna de las condiciones se cumpla va a ser true. Y finalmente tenemos el ! que signiica negacion, en este caso 
+estoy dando vuelta la declaracion a su valor opuesto.  
