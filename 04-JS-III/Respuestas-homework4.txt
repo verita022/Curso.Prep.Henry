@@ -1,0 +1,2 @@
+Un Array es un arreglo, una lista de elementos ordenados. En esta lista puedo inlcuir todo tipo de elementos y la cantidad que quiera.
+Luego puedo llamarlos en distintos ordenes, con filtros o como lo necesite. 
