@@ -1,0 +1,25 @@
+
+* Objetos
+
+Los Objetos son listas como los arreglos nada mas que en el objeto puedo nombrar las propiedades de forma referencial, con un nombre que identifique la informacion
+que voy a poner adentro, de esta manera no necesito saber o recordar en que sub se encuentra el valor, directamente lo llamo con su nombre.
+
+* Propiedades
+
+Las propiedades son los elementos que vamos a colocar dentro de los objetos, estas pueden hacer referencia a un string, un numero, un valor booleano, una funcion, etc.
+
+* Métodos
+
+Los metodos son funciones. Conjuntos de codigos que cumplen alguna accion que luego voy a nacesitar utilizar de forma reiterada en el documento, con los 
+metodos me ahorro repetir el codigo una y otra vez.
+
+* Bucle `for…in`
+
+Este es un bucle distintivo para recorrer el interior de un objeto, ya que este no contiene indices numericos los bucles tradicionales que utilizabamos
+para los array no van a funcionar. 
+
+* Notación de puntos vs notación de corchetes
+
+Son las diferentes formas de llamar una propiedad dentro de un objeto, la notacion de corchetes funciona colocando corchetes a la derecha del objeto con el nombre
+de la propiedad dentro de ellos y la notacion de puntos reemplaza los corchetes por un punto seguido a la derecha del objeto con el nombre del producto
+
