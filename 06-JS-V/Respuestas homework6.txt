@@ -1,0 +1,11 @@
+`prototype`
+* _Constructors_ (de Clases)
+
+Todos los objetos en javascript tiene un prototype por defecto, que es como un documento oculto con declaracion de acciones
+que se pueden realizar con estos objetos. Javascript tambien nos da la oportunidad de modificar el prototype para el objeto(clase) que 
+estemos utilizando de acuerdo a lo que nos haga falta.
+
+Las funciones constructoras son como fabricas de moldes, en estas yo declaro el tipo de objetos que quiero reproducir despues y en su
+interior le declaro cuales son las caracteristicas que todos estos van a tener en comun, pero que los van a diferenciar entre si, es decir, yo en la funcion
+constructora declaro que voy a fabricar cuadernos y luego le digo que estos cuadernos van a contar con "cantidad de hojas", "tamaño" etc,
+entonces despues en cada objeto nuevo sin necesidad de repetirme hago referencia a este molde, y defino los detalles de cada objeto por separado.  
